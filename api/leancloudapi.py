@@ -182,7 +182,7 @@ def query_post(link, num, rule):
     query_userinfo.limit(1000)
     query_userinfo.select('friendname', 'friendlink', 'firendimg')
     query_list_user = query_userinfo.find()
-
+    print("全部列表", query_list_user)
     if link is None:
         link = random.choice(query_list_user).get('friendlink')
     api_json = {}
