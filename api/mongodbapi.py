@@ -113,8 +113,8 @@ def query_post(link, num, rule):
         post["floor"] = floor + 1
         data.append(post)
     if friend:
-        print(data)
         friend["article_num"] = len(data)
+        print(friend, data)
         api_json = {"statistical_data": friend, "article_data": data}
     else:
         # 如果user为空直接返回
