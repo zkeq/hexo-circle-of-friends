@@ -213,7 +213,7 @@ def query_post(link, num, rule):
         "author": author,
         "link": link,
         "avatar": avatar,
-        "article_num": num + 1
+        "article_num": num
     }
 
     if num < 0 or num > min(article_num, 1000):
