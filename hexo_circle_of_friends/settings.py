@@ -51,7 +51,7 @@ SETTINGS_FRIENDS_LINKS = {
 #         # 如果目标地址的后缀不在其中，就可以在这里添加
 #         # 比如 https://elizen.me/hello.xml ，填写：
           ["xcsoft", "https://blog.xsot.cn/", "https://ik.imagekit.io/zkeq/friends/f8.jpg", "https://json.icodeq.com/json/zkeq/xsot"],
-          ["ThereHello", "https://blog.therehello.top/", "https://ik.imagekit.io/zkeq/friends/f6.jpg", "https://blog.therehello.top/atom.xml"],
+        #   ["ThereHello", "https://blog.therehello.top/", "https://ik.imagekit.io/zkeq/friends/f6.jpg", "https://blog.therehello.top/atom.xml"],
           ["纳兰戏梦", "https://derm.top/", "https://ik.imagekit.io/zkeq/friends/f7.jpg", "https://derm.top/index.php/feed/"],
 #         ["elizen", "https://elizen.me/", "https://akilar.top/images/headimage.png", "hello.xml"],
     ]
