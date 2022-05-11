@@ -81,8 +81,23 @@ GITHUB_FRIENDS_LINKS = {
 # block site list
 # 添加屏蔽站点
 BLOCK_SITE = [
-    # "https://example.com/",
-    # "https://example.com/",
+    "https://www.therehello.top/",
+    "https://blog.probius.xyz/",
+    "https://web.qianguyihao.com/",
+    "https://qwerty.kaiyi.cool/",
+    "https://devdocs.io/",
+    "http://tool.liumingye.cn/music/",
+    "https://31sanyi.neocities.org/",
+    "https://developer.mozilla.org/zh-CN/docs/Learn/",
+    "https://javadocs.zkeq.xyz/",
+    "https://pic.onji.cn/",
+    "https://www.yuque.com/probius/",
+    "https://hyperbeam.com/",
+    "https://music.icodeq.com/",
+    "https://listen.icodeq.com/",
+    "https://pic.icodeq.com/",
+    "https://player.icodeq.com/",
+    "https://json.icodeq.com/"
 ]
 
 # 启用HTTP代理，此项设为True，并且需要添加一个环境变量，名称为PROXY，值为[IP]:[端口]，比如：192.168.1.106:8080
