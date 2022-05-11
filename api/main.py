@@ -12,6 +12,7 @@ sys.path.append(BASE_DIR)
 from hexo_circle_of_friends import settings
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 
 if settings.DATABASE == 'leancloud':
     from api.leancloudapi import *
@@ -33,6 +34,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.get("/")
+async def redirect_index():
+    return RedirectResponse("https://icodeq.com")
 
 
 @app.get("/all", tags=["API"], summary="返回完整统计信息")

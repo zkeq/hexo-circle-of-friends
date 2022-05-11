@@ -3,6 +3,7 @@
     "public": true,
     "builds": [{ "src": "api/main.py", "use": "@vercel/python" }],
     "routes": [
+        { "src": "/", "dest": "api/main.py" },
         { "src": "/all", "dest": "api/main.py" },
         { "src": "/friend", "dest": "api/main.py" },
         { "src": "/randomfriend", "dest": "api/main.py" },
