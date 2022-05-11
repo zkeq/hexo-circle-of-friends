@@ -77,7 +77,7 @@ def query_all(list, start: int = 0, end: int = -1, rule: str = "updated"):
         rules.extend(["updated", "created"])
     for r in rules:
         try:
-            article_data_init.sort(key=lambda x: x[r], reverse=True)
+            article_data_init.sort(key=lambda x: x[r], reverse=False)
         except:
             return {"message": "sort error"}
 
