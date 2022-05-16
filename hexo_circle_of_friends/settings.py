@@ -97,8 +97,7 @@ BLOCK_SITE = [
     "https://listen.icodeq.com/",
     "https://pic.icodeq.com/",
     "https://player.icodeq.com/",
-    "https://json.icodeq.com/",
-    "https://blog.xsot.cn/"
+    "https://json.icodeq.com/"
 ]
 
 # 启用HTTP代理，此项设为True，并且需要添加一个环境变量，名称为PROXY，值为[IP]:[端口]，比如：192.168.1.106:8080
