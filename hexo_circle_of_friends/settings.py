@@ -44,7 +44,7 @@ SETTINGS_FRIENDS_LINKS = {
     "json_api": "",
     "list": [
 #         # 示例1：
-          ["ZkeqのCode日志", "https://icodeq.com/categories/A%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0/", "https://ik.imagekit.io/zkeq/Avatar.jpg"],
+          ["ZkeqのCode日志", "https://icodeq.com/", "https://ik.imagekit.io/zkeq/Avatar.jpg"],
           ["ZkeqのCode日志", "https://icodeq.com/", "https://ik.imagekit.io/zkeq/Avatar.jpg", "https://icodeq.com/feed.xml"],
 #         ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
 #         # 示例2：使用suffix的配置如下
