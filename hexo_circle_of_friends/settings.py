@@ -104,7 +104,7 @@ BLOCK_SITE = [
 HTTP_PROXY = False
 
 # 过期文章清除（天）
-OUTDATE_CLEAN = 60
+OUTDATE_CLEAN = 99999
 
 # 存储方式，可选项：leancloud，mysql，sqlite，mongodb；默认为leancloud
 DATABASE = "leancloud"
